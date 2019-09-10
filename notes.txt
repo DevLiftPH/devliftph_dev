@@ -1,0 +1,10 @@
+TASKS
+  - HTML, CSS Nav, Footer Template  [P]
+  - About DevLift Page              [P]
+  - Login / Registration Page       [P]
+  - Dashboard UI                    [P]
+
+TOOLS
+  Structure   |   HTML, CSS, VanillaJS
+  Front-End   |   Materialize CSS & JQuery Framework, ReactJS
+  Back-End    |   MongoDB, Node.JS, Express
