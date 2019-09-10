@@ -8,3 +8,16 @@ TOOLS
   Structure   |   HTML, CSS, VanillaJS
   Front-End   |   Materialize CSS & JQuery Framework, ReactJS
   Back-End    |   MongoDB, Node.JS, Express
+
+
+GIT COMMANDS
+
+[ Create Branch ]                       -   git checkout -b [branch_name]
+[ Pull Updates ]                        -   git pull
+[ Stage Changes ]                       -   git add . (add all changes) OR git add [file_name]
+[ Check Status ]                        -   git status
+[ Commit Changes ]                      -   git commit -m "Your message here..."
+[ Push Changes from Current Branch ]    -   git push origin [your_branch_name]
+[ Push Changes to Master Branch]        -   git push origin master
+[ Merge Branch to Local Master Branch ] -   git checkout master
+                                        -   git merge master [branch_name]
