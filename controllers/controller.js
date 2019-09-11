@@ -1,15 +1,10 @@
-const http = new EasyHTTP;
+const user = new User();
 
 const user1 = {
-  name: "Jane Doe", 
-  username: 'janedoe',
-  email: "janedoe@gmail.com",
-  usertype: "user"
-};
+  username: 'jerome',
+  password: 'jerome123',
+  email: 'jerome@gmail.com',
+  userType: 'user'
+}
 
-
-
-// ? POST/ADD Users
-http.post('https://raw.githubusercontent.com/jmjaro-dev/DevLift-Project/master/db/users/', user1)
-.then(data => console.log(data))
-.catch(err => console.log(err));
+user.addUser(user1);
