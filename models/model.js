@@ -3,7 +3,7 @@ class User {
       this.username = username;
       this.password = password;
       this.email = email;
-      this.userType;
+      this.userType = 'user';
       this.users = db.collection('users');
   }
 
@@ -15,8 +15,10 @@ class User {
       email: user.email,
       userType: user.userType
     };
+
     // save the user to database
     const response = await this.users.add(newUser);
+
     return response;
   }
 }
