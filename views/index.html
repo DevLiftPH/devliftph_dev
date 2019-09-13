@@ -1,26 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DevLift PH</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+       <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/animations.css">
 </head>
 <body>
+    <!-- Header nav -->
+    <div class="parallax-container main-header">
+        <div class="parallax">
+            <img src="../assets/header4.jpg" alt="">
+        </div>
+            <nav class="transparent z-depth-0">
+                <div class="nav-wapper">
+                    <div class="container">
+                        <a href="#" class="brand-logo fjalla">DEV<span>LIFT</span>PH</a>
+                        <ul class="right">
+                            <li><a href="login&signup.html" class="navlink1">Login</a></li>
+                            <li><a href="login&signup.html" class="navlink2">| &nbsp;&nbsp;Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <!-- header content-->
+        <div class="container center">
+            <div class="header-title">
+                <div class="title title-left">DEV</div><div class="title title-right">LIFT</div>
+                 
+            </div>
+            <div class="header-title" style="margin-top: -40px !important;">
+                <div class="tagline tagline-left">web development</div>
+                <div class="tagline tagline-right">creative web design</div> 
+            </div>
+                    
+        </div>
+        <!-- login modal -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <div class="modal-container input-field">
+                            <h4 style="text-align: center; color:#4a4364 !important;">Login</h4>
+                            <input type="text" id="userLogin" placeholder="Username">
+                            
+                            <input type="password" id="userPassword" placeholder="Password">
+                            
+                            <p>&nbsp;</p>
+                            <button type="submit" id="loginbtn" class="btn waves-effect waves-light purple darken-4">LOGIN</button>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="modal-container input-field">
+                            <h4 style="text-align: center; color:#4a4364 !important;">Register</h4>
+                            <input type="text" id="username" placeholder="Username" required>
+                            
+                            <input type="password" id="password" placeholder="Password" required>
+                            
+                            <input type="email" id="email" placeholder="Email Address" required>
+                            
+    
+                            <p>&nbsp;</p>
+                            <button type="submit" id="loginbtn" class="btn waves-effect waves-light purple darken-4">REGISTER</button>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- section services-->
+    <section id="services">
+        <div class="container">
+            <div class="row fadein center">
+                <br /><br />
+                <h4 style="color: #2d283e !important; font-weight: bold;">What DevLift Offers</h4>
+                <p style="color: #2d283e !important; font-weight: bold;">From aspiring developers and visual graphic designers to professionals, we have the perfect training to develop your skills.</p>
+            </div>
+            <div class="row fadein">
+                <div class="col s12 m6 l6">
+                    <div class="card-panel transparent z-depth-0">
+                        <div class="card-content">
+                            <div class="card-title"><h6>Creative Web Design</h6></div>
+                            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, molestias expedita veniam, eligendi animi eius reiciendis inventore enim, adipisci repudiandae quidem labore ab optio perferendis dolor nulla. Et, rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card-panel transparent z-depth-0">
+                        <div class="card-content">
+                            <div class="card-title"><h6>Web Development</h6></div>
+                            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, molestias expedita veniam, eligendi animi eius reiciendis inventore enim, adipisci repudiandae quidem labore ab optio perferendis dolor nulla. Et, rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row fadein">
+                <div class="col s12 m6 l6">
+                    <div class="card-panel transparent z-depth-0">
+                        <div class="card-content">
+                            <div class="card-title"><h6>Mobile Responsiveness</h6></div>
+                            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, molestias expedita veniam, eligendi animi eius reiciendis inventore enim, adipisci repudiandae quidem labore ab optio perferendis dolor nulla. Et, rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card-panel transparent z-depth-0">
+                        <div class="card-content">
+                            <div class="card-title"><h6>Database Management</h6></div>
+                            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, molestias expedita veniam, eligendi animi eius reiciendis inventore enim, adipisci repudiandae quidem labore ab optio perferendis dolor nulla. Et, rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row fadein">
+                <div class="col s12 m6 l6">
+                    <div class="card-panel transparent z-depth-0">
+                        <div class="card-content">
+                            <div class="card-title"><h6>Photography and Video Editing</h6></div>
+                            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, molestias expedita veniam, eligendi animi eius reiciendis inventore enim, adipisci repudiandae quidem labore ab optio perferendis dolor nulla. Et, rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card-panel transparent z-depth-0">
+                        <div class="card-content">
+                            <div class="card-title"><h6>Bootcamps, Workshops and Online Tutorials</h6></div>
+                            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, molestias expedita veniam, eligendi animi eius reiciendis inventore enim, adipisci repudiandae quidem labore ab optio perferendis dolor nulla. Et, rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- about us -->
+    <section id="about">
+        <div class="row title center">
+            <div class="title-overlay">
+                <span style="font-size: 42px; color: white; font-weight: bold;">ABOUT DEVLIFT</span>
+            </div>
+        </div>
+        <div class="container center">
+            <br />
+            <p style="color: #2d283e !important; font-weight: bold;">DevLift - Lifting experienced and aspiring developers</p>
+            <p style="color: #4a4364 !important;">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quisquam voluptas dolores praesentium, animi fugiat eveniet impedit quaerat aspernatur culpa iste, reprehenderit exercitationem dolorem tempore debitis, perferendis maxime at non nam accusantium nisi similique. Quos voluptatibus totam sunt aut vitae?
+            </p>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="../assets/img3.jpg" alt="" class="activator">
+                        </div>
+                        <div class="card-content"><span class="card-activator">Bill Justin<p>Full Stack Developer</p></span></div>
+                        <div class="card-reveal" style="overflow: hidden;">
+                            <div class="card-title">
+                                <span style="font-weight: bold; font-size: 16px !important; color: #2d283e !important;">Bill Justin </span> 
+                                <p style="font-size: 14px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur cum facere animi quidem aut! Eum veniam quidem accusamus omnis consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="../assets/img3.jpg" alt="" class="activator">
+                        </div>
+                        <div class="card-content"><span class="card-activator">Gabriel<p>Full Stack Developer</p></span></div>
+                        <div class="card-reveal" style="overflow: hidden;">
+                            <div class="card-title">
+                                <span style="font-weight: bold; font-size: 16px !important; color: #2d283e !important;">Gab</span> 
+                                <p style="font-size: 14px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur cum facere animi quidem aut! Eum veniam quidem accusamus omnis consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="../assets/img3.jpg" alt="" class="activator">
+                        </div>
+                        <div class="card-content"><span class="card-activator">Julius<p>Full Stack Developer</p></span></div>
+                        <div class="card-reveal" style="overflow: hidden;">
+                            <div class="card-title">
+                                <span style="font-weight: bold; font-size: 16px !important; color: #2d283e !important;">Julius</span> 
+                                <p style="font-size: 14px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur cum facere animi quidem aut! Eum veniam quidem accusamus omnis consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="../assets/img3.jpg" alt="" class="activator">
+                        </div>
+                        <div class="card-content"><span class="card-activator">Jerome<p>Full Stack Developer</p></span></div>
+                        <div class="card-reveal" style="overflow: hidden;">
+                            <div class="card-title">
+                                <span style="font-weight: bold; font-size: 16px !important; color: #2d283e !important;">Jerome</span> 
+                                <p style="font-size: 14px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur cum facere animi quidem aut! Eum veniam quidem accusamus omnis consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br /><br />
+        </div>
+    </section>
 
+    <!-- testimonials -->
+    <section id="testimonial">
+        <div class="container center">
+            <br /><br />
+            <h4 style="color: #2d283e !important; font-weight: bold;">What DevLift Students Say</h4>
+            <p style="color: #2d283e !important; font-weight: bold;">Former students who shared their experiences in joining Devlift's community.</p>
+            <p>&nbsp;</p>
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <div class="card purple-border z-depth-3">
+                        <div class="card-content center">
+                            <img src="../assets/img3.jpg" alt="" class="circle responsive-img" width="150" height="250">
+                            <p>&nbsp;</p>
+                            <p style="color: #454545 !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloribus reiciendis itaque rerum voluptatum in, voluptatibus consequuntur beatae dolores a nihil error vero sapiente voluptatem aliquam explicabo, asperiores quo. Tenetur explicabo ea, quae architecto nesciunt quia temporibus illum modi!
+                            </p>
+                        </div>
+                        <div class="card-action center">
+                            <p style="color: #454545 !important; font-weight: bold;">Jane Doe</p>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card purple-border">
+                        <div class="card-content center">
+                            <img src="../assets/img5.jpg" alt="" class="circle responsive-img" width="150" height="250">
+                            <p>&nbsp;</p>
+                            <p style="color: #454545 !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloribus reiciendis itaque rerum voluptatum in, voluptatibus consequuntur beatae dolores a nihil error vero sapiente voluptatem aliquam explicabo, asperiores quo. Tenetur explicabo ea, quae architecto nesciunt quia temporibus illum modi!
+                            </p>
+                        </div>
+                        <div class="card-action center">
+                            <p style="color: #454545 !important; font-weight: bold;">John Doe</p>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card purple-border">
+                        <div class="card-content center">
+                            <img src="../assets/img6.jpg" alt="" class="circle responsive-img" width="150" height="250">
+                            <p>&nbsp;</p>
+                            <p style="color: #454545 !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloribus reiciendis itaque rerum voluptatum in, voluptatibus consequuntur beatae dolores a nihil error vero sapiente voluptatem aliquam explicabo, asperiores quo. Tenetur explicabo ea, quae architecto nesciunt quia temporibus illum modi!
+                            </p>
+                        </div>
+                        <div class="card-action center">
+                            <p style="color: #454545 !important; font-weight: bold;">Jhen Doe</p>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script> 
-  <!-- Firebase Firestore -->
-  <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-firestore.js"></script>
+    <!-- footer -->
+    <footer class="page-footer white">
+        <div class="footer-copyright" style="background: #2d283e;">
+            <div class="container white-text">
+                contact@devlift.ph | DevLiftph © 2019 
+                    <a class="social right" href="#!"><i class="fa fa-google-plus"></i></a>
+                    <a class="social right" href="https://www.linkedin.com/in/devlift-philippines-94ba51192/"><i class="fa fa-linkedin"></i></a>
+                    <a class="social right" href="https://www.youtube.com/channel/UCdvVcevuUG0ukOY-oWGyYrw"><i class="fa fa-youtube"></i></a>
+                    <a class="social right" href="https://www.instagram.com/devliftph/"><i class="fa fa-instagram"></i></a>
+                    <a class="social right" href="https://twitter.com/DevliftP"><i class="fa fa-twitter"></i></a>
+                    <a class="social right" href="https://www.facebook.com/devlift.ph/"><i class="fa fa-facebook"></i></a>  
+            </div>
+        </div>
+    </footer>
+    
 
-  <!-- Firebase DB Connection -->
-  <script src="../db/config.js"></script>
-  
-  <!-- Custom JS -->
-  <script src="../models/model.js"></script>
-  <script src="../controllers/controller.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.modal').modal();
+            
+        });
+        $(document).ready(function() {
+            $(window).scroll( _ => {
+                $('.fadein').each( function(){
+                    
+                    let bottom_of_element = $(this).offset().top + $(this).outerHeight();
+                    let bottom_of_window = $(window).scrollTop() + $(window).height();
+                    
+                    if( bottom_of_window > bottom_of_element ){
+                        $(this).animate({'opacity':'1','margin-bottom':'0px'},1000);
+                    }
+
+                    console.log('element', bottom_of_element);
+                    console.log('window', bottom_of_window)
+                    
+                }); 
+            });
+        });
+
+    </script>
 </body>
 </html>

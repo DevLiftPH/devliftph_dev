@@ -1,0 +1,201 @@
+* {
+  font-family: Open Sans;
+  color: #D1D7E0 !important;
+}
+
+nav a.brand-logo {
+  font-size: 18px !important;
+  -webkit-animation: brand-logo 0.8s forwards 0.5s ease;
+          animation: brand-logo 0.8s forwards 0.5s ease;
+  opacity: 0;
+}
+
+nav a.brand-logo span {
+  color: #802bb1 !important;
+  font-family: Fjalla One;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+nav a.navlink1 {
+  -webkit-animation: brand-logo 0.8s forwards 1s ease;
+          animation: brand-logo 0.8s forwards 1s ease;
+  opacity: 0;
+}
+
+nav a.navlink2 {
+  -webkit-animation: brand-logo 0.8s forwards 1.5s ease;
+          animation: brand-logo 0.8s forwards 1.5s ease;
+  opacity: 0;
+}
+
+.main-header {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-header .primary-overlay {
+  background: #2D283E;
+  opacity: 0.7;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* header title */
+.header-title {
+  margin-top: 15%;
+  /* keyframes */
+}
+
+.header-title .title {
+  font-size: 130px;
+  font-family: Fjalla One;
+  letter-spacing: 10px;
+  display: inline-block;
+}
+
+.header-title p {
+  margin-top: -45px;
+}
+
+.header-title .tagline {
+  font-family: Fjalla One;
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.header-title .tagline-left {
+  margin-right: 15px;
+  opacity: 0;
+  -webkit-animation: taglineLeftSlide 0.8s forwards 3.2s ease;
+          animation: taglineLeftSlide 0.8s forwards 3.2s ease;
+}
+
+.header-title .tagline-right {
+  margin-left: 10px;
+  opacity: 0;
+  -webkit-animation: taglineRightSlide 0.8s forwards 3.2s ease;
+          animation: taglineRightSlide 0.8s forwards 3.2s ease;
+}
+
+.header-title .title-left {
+  opacity: 0;
+  -webkit-animation: title-left 0.8s forwards 2.2s ease;
+          animation: title-left 0.8s forwards 2.2s ease;
+}
+
+.header-title .title-right {
+  opacity: 0;
+  -webkit-animation: title-right 1.8s forwards 2.2s ease;
+          animation: title-right 1.8s forwards 2.2s ease;
+}
+
+section#services {
+  width: 100%;
+  height: auto;
+  background-color: #d1d7e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#services .card-content p {
+  color: #2D283E !important;
+}
+
+section#services .card-title h6 {
+  font-weight: bold;
+  color: #802bb1 !important;
+}
+
+section#services .fadein {
+  opacity: 0;
+  margin-bottom: -200px;
+}
+
+section#about {
+  width: 100%;
+  height: auto;
+  background: #d1d7e0;
+}
+
+section#about .title {
+  background: url(../assets/header2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 200px;
+}
+
+section#about .title .title-overlay {
+  background: #2D283E;
+  opacity: 0.8;
+  height: 100%;
+  position: relative;
+}
+
+section#about .card-content span {
+  color: #2D283E !important;
+  font-weight: bold;
+}
+
+section#about .card-content span p {
+  font-weight: 400;
+  color: #545454 !important;
+}
+
+section#about .card-reveal .card-title p {
+  color: #2D283E !important;
+}
+
+section#testimonial .card-content p, section#testimonial .card-action p {
+  color: #454545 !important;
+}
+
+section#testimonial .purple-border {
+  border: 1px solid #2D283E;
+}
+
+.modal {
+  opacity: 0.9 !important;
+}
+
+.modal-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* login css */
+/* fonts */
+p.section-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.fjalla {
+  font-family: Fjalla One !important;
+}
+
+a.social {
+  margin-right: 20px !important;
+  font-size: 18px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+a.social:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: white !important;
+}
+/*# sourceMappingURL=main.css.map */
