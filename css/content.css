@@ -1,0 +1,95 @@
+/* course-list */
+section#courses-list .container .card {
+  border: 2px solid rgba(128, 43, 177, 0.8);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+section#courses-list .container .card .card-content span {
+  font-weight: bold;
+  font-family: Fjalla One;
+  color: #2D283E;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+section#courses-list .container .card .card-content p {
+  font-weight: 600;
+  color: #545454;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+section#courses-list .container .card:hover .card-content span {
+  color: #802bb1;
+}
+
+section#courses-list .container .card:hover .card-content p {
+  color: #393939;
+}
+
+/* courses */
+section#courses {
+  padding-top: 20px;
+  font-family: Open Sans;
+}
+
+section#courses .container {
+  -webkit-box-shadow: 10px 0px 15px -15px rgba(0, 0, 0, 0.45), -10px 0px 15px -15px rgba(0, 0, 0, 0.45);
+          box-shadow: 10px 0px 15px -15px rgba(0, 0, 0, 0.45), -10px 0px 15px -15px rgba(0, 0, 0, 0.45);
+}
+
+section#courses .container .description-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+section#courses .container .description-container ul li .description {
+  margin-top: 20px;
+}
+
+section#courses .container .description-container ul li .description p {
+  margin-top: -2px !important;
+  margin-bottom: -2px;
+  font-size: 15px;
+  color: #545454;
+  font-weight: 500;
+}
+
+section#courses .container .description-container ul li .description p span {
+  color: #292929;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+section#courses .container .description-container ul li .description ul li {
+  color: #545454;
+  margin-left: 15px;
+}
+
+section#courses .container .description-container ul li {
+  color: #802bb1;
+  font-weight: bold;
+}
+
+section#courses .container p.course-title {
+  font-family: Fjalla One;
+  font-weight: 600bold;
+  font-size: 34px;
+  color: #2D283E;
+  text-align: center;
+}
+
+section#courses .container p.tagline {
+  font-weight: bold;
+  color: #545454;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+section#courses .container button {
+  background-color: #802bb1;
+  color: white;
+}
+/*# sourceMappingURL=content.css.map */

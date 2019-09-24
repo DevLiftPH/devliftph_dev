@@ -1,0 +1,100 @@
+/* course-list */
+section#courses-list {
+
+    .container {
+        
+        .card {
+            border: 2px solid rgba($color: #802bb1, $alpha: 0.8);
+            border-radius: 3px;
+            cursor: pointer;
+
+            .card-content {
+
+                span {
+                    font-weight: bold;
+                    font-family: Fjalla One;
+                    color: #2D283E;
+                    transition: all 0.5s ease;
+                }
+
+                p {
+                    font-weight: 600;
+                    color: #545454;
+                    transition: all 0.5s ease
+                }
+            }
+        }
+        .card:hover .card-content span {   
+            color: #802bb1;
+        }   
+        .card:hover .card-content p {   
+            color: #393939;
+        }   
+    }
+}
+
+
+/* courses */
+section#courses {
+    padding-top: 20px;
+    font-family: Open Sans;
+    
+    .container {
+        box-shadow: 10px 0px 15px -15px rgba(0,0,0,0.45), -10px 0px 15px -15px rgba(0,0,0,0.45);
+
+        .description-container {
+            margin: 0 auto;
+            width: 90%;
+
+            ul li .description{
+                margin-top: 20px;
+                p {
+                    margin-top: -2px !important;
+                    margin-bottom: -2px;
+                    font-size: 15px;
+                    color: #545454;
+                    font-weight: 500;
+        
+                    span {
+                        color: #292929;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                }
+                ul li {
+                    color: #545454;
+                    margin-left: 15px;
+
+                    
+                }
+            }
+
+            ul li {
+                color: #802bb1;
+                font-weight: bold;
+            }
+        }
+
+        p.course-title {
+            font-family: Fjalla One;
+            font-weight: 600bold;
+            font-size: 34px;
+            color: #2D283E;
+            text-align: center;
+        }
+
+        p.tagline {
+            font-weight: bold;
+            color: #545454;
+            font-size: 15px;
+            text-align: center;
+            margin-top: -30px;
+        }
+        button {
+            background-color: #802bb1;
+            color: white;
+            
+        }
+        
+    }
+}

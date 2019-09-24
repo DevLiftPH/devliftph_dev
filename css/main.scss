@@ -172,6 +172,8 @@ section#testimonial {
 }
 
 
+
+
 /* login css */
 
 
@@ -199,4 +201,10 @@ a.social:hover {
     color: white !important;
 }
 
-
+/* texts on parallax */
+.parallax-title {
+    margin-top: 20%;
+    font-family: Fjalla One;
+    font-size: 80px;
+    display: inline-block;
+}
