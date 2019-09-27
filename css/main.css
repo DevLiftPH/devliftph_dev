@@ -97,6 +97,39 @@ nav a.navlink2 {
           animation: title-right 1.8s forwards 2.2s ease;
 }
 
+section#countdown {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+}
+
+section#countdown p.count-down {
+  font-family: Orbitron;
+  font-weight: bold;
+  font-size: 58px;
+  color: #4e1570 !important;
+}
+
+section#countdown p.tagline {
+  font-family: Fjalla One;
+  font-size: 21px;
+  margin-top: -60px;
+  color: #313131 !important;
+}
+
+section#countdown .course-title {
+  font-family: Fjalla One;
+  font-size: 40px;
+  color: #802bb1 !important;
+}
+
+section#countdown .course-title p.venue {
+  color: #545454 !important;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
 section#services {
   width: 100%;
   height: auto;
@@ -123,7 +156,7 @@ section#services .fadein {
 section#about {
   width: 100%;
   height: auto;
-  background: #d1d7e0;
+  background: white;
 }
 
 section#about .title {
@@ -156,6 +189,11 @@ section#about .card-content span p {
 
 section#about .card-reveal .card-title p {
   color: #2D283E !important;
+}
+
+section#testimonial {
+  background: #d1d7e0;
+  padding-bottom: 30px;
 }
 
 section#testimonial .card-content p, section#testimonial .card-action p {
@@ -205,5 +243,12 @@ a.social:hover {
   font-family: Fjalla One;
   font-size: 80px;
   display: inline-block;
+}
+
+p.count-down {
+  font-family: Orbitron;
+  font-weight: bold;
+  font-size: 58px;
+  color: #4e1570 !important;
 }
 /*# sourceMappingURL=main.css.map */

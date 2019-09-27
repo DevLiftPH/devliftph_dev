@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DevLift | Node, Express & MongoDB</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../../../css/content.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="fixed">
+        <div class="nav-wrapper purple">
+            <div class="container">
+                <a href="#" class="brand-logo">devliftph</a>
+                <a href="#" class="button-collapse right"><i class="material-icons">menu</i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content -->
+    <section id="courses">
+        <div class="container">
+            <div class="description-container">
+                <div class="row">
+                    <p class="course-title">Node, Express and MongoDB</p>
+                    <p class="tagline">A training on the back-end side of javascript with database</p>
+                    <ul class="collection">
+                        <li class="collection-item">
+                            Oct 23-29 | Venue: American Tesol Institute
+                        <a href="#" class="secondary-content" id="down"><i class="material-icons gray-text">arrow_drop_down</i></a>
+                        <div class="description" style="display: none;">
+                            <p><span>Qualifications:</span> Open for everyone</p>
+                            <p><span>Requirements:</span> A personal laptop is preferred but not required.</p>
+                            <p><span>Venue Address:</span> 707 Shaw Blvd., Brgy. Kapitolyo, Pasig City</p>
+                            <p><span>Duration:</span> Monday to Friday, 8:00 am to 5:00 pm</p>
+                            <p><span>Registration Fee:</span> Php 3,000.00</p><br />
+                            <p><span>Course Description</span></p>
+                            <ul>
+                                <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illo.</li>
+                                <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illo.</li>
+                                <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illo.</li>
+                                <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illo.</li>
+                        
+                                <li class="center"><br /><button type="submit" id="registerbtn" class="btn waves-effect waves-light">REGISTER NOW</button></li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#down').click( _ => $('.description').slideToggle());
+        });
+    </script>
+</body>
+</html>

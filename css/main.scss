@@ -90,6 +90,38 @@ nav {
     } 
 }
 
+section#countdown {
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+
+    p.count-down {
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 58px;
+        color: #4e1570 !important;
+    }
+
+    p.tagline {
+        font-family: Fjalla One;
+        font-size: 21px;
+        margin-top: -60px;
+        color: #313131 !important;
+    }
+    .course-title {
+        font-family: Fjalla One;
+        font-size: 40px;
+        color: #802bb1 !important;
+
+        p.venue {
+            color: #545454 !important;
+            font-size: 21px;
+            font-weight: bold;
+            margin-top: -10px;
+        }
+    }
+}
+
 
 section#services {
     width: 100%;
@@ -115,7 +147,7 @@ section#services {
 section#about {
     width: 100%;
     height: auto;
-    background: #d1d7e0;
+    background: white;
 
     .title {
         background: url(../assets/header2.jpg);
@@ -151,6 +183,8 @@ section#about {
 }
 
 section#testimonial {
+    background: #d1d7e0;
+    padding-bottom: 30px;
 
     .card-content p, .card-action p {
         color: #454545 !important;
@@ -207,4 +241,12 @@ a.social:hover {
     font-family: Fjalla One;
     font-size: 80px;
     display: inline-block;
+}
+
+
+p.count-down {
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 58px;
+    color: #4e1570 !important;
 }
