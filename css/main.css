@@ -251,4 +251,8 @@ p.count-down {
   font-size: 58px;
   color: #4e1570 !important;
 }
+/*Edited by: "Gab" Description: "added a hover effect to the framework in the index.html"*/
+#framework:hover{
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */
