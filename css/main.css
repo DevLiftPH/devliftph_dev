@@ -143,6 +143,18 @@ section#services .card-content p {
   color: #2D283E !important;
 }
 
+section#services .card-content p a {
+  color: #802bb1 !important;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+section#services .card-content p a:hover {
+  color: #4e1570 !important;
+  font-weight: bold;
+}
+
 section#services .card-title h6 {
   font-weight: bold;
   color: #802bb1 !important;
@@ -213,7 +225,16 @@ section#testimonial .purple-border {
   padding-right: 10%;
 }
 
-/* login css */
+/* testimonials page */
+.testimonials-page .card .card-content {
+  color: #545454 !important;
+}
+
+.testimonials-page .card .card-action span.name {
+  font-weight: bold;
+  color: white !important;
+}
+
 /* fonts */
 p.section-title {
   font-size: 32px;
@@ -250,9 +271,5 @@ p.count-down {
   font-weight: bold;
   font-size: 58px;
   color: #4e1570 !important;
-}
-/*Edited by: "Gab" Description: "added a hover effect to the framework in the index.html"*/
-#framework:hover{
-  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

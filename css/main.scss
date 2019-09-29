@@ -131,6 +131,18 @@ section#services {
 
     .card-content p {
         color: #2D283E !important;
+
+        a {
+            color: #802bb1 !important;
+            text-decoration: none;
+            transition: color 0.5s ease;
+        }
+
+        a:hover {
+            color: #4e1570 !important;
+            font-weight: bold;
+        }
+
     }
     .card-title h6 {
         font-weight: bold;
@@ -208,7 +220,27 @@ section#testimonial {
 
 
 
-/* login css */
+/* testimonials page */
+.testimonials-page {
+
+    .card {
+        
+
+        .card-content {
+            color: #545454 !important;
+        }
+
+        .card-action {
+            
+            span.name {
+                font-weight: bold;
+                color: white !important;
+            }
+        }
+        
+    }
+    
+}
 
 
 
