@@ -1,4 +1,4 @@
-09/30/2019
+09/30/2019 (Bill)
     - added navbar, input fields and updated messages on testimonials page
     - updated countdown timer in homepage
 
@@ -6,7 +6,7 @@
         - animation on scroll on homepage
         - background on testimonials page - to be decided
 
-09/29/2019 
+09/29/2019 (Bill)
     - updated text contents on homepage, added testimonials page    
 
     Planned updates
