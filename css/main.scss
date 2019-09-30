@@ -95,29 +95,45 @@ section#countdown {
     height: 50vh;
     background-color: white;
 
-    p.count-down {
-        font-family: Orbitron;
-        font-weight: bold;
-        font-size: 58px;
-        color: #4e1570 !important;
-    }
+    .countdown-container {
+        text-align: center;
 
-    p.tagline {
-        font-family: Fjalla One;
-        font-size: 21px;
-        margin-top: -60px;
-        color: #313131 !important;
+        .timer {
+            font-family: Orbitron;
+            font-weight: bold;
+            font-size: 58px;
+            color: #4e1570 !important;
+            display: inline-block;
+            text-align: center;
+            padding-top: 50px;
+            width: 160px;
+
+            span.tagline {
+                display: block;
+                font-family: Fjalla One;
+                font-size: 21px;
+                color: #313131 !important;
+            }
+        }
     }
+    
     .course-title {
         font-family: Fjalla One;
         font-size: 40px;
         color: #802bb1 !important;
+        p.date {
+            font-family: Fjalla One;
+            color: #4e1570 !important;
+            font-size: 21px;
+            font-weight: bold !important;
+            margin-top: -5px;
+        }
 
         p.venue {
-            color: #545454 !important;
-            font-size: 21px;
+            color: #454545 !important;
+            font-size: 18px;
             font-weight: bold;
-            margin-top: -10px;
+            margin-top: -20px;
         }
     }
 }
@@ -205,7 +221,6 @@ section#testimonial {
     .purple-border {
         border: 1px solid #2D283E
     }
-    
 }
 
 .modal {
@@ -221,10 +236,31 @@ section#testimonial {
 
 
 /* testimonials page */
+
+nav.testimonials {
+    background-color: #2D283E !important;
+}
 .testimonials-page {
 
+    padding-top: 50px;
+
+    input {
+        color: #454545 !important;
+    }
+
+    p.title {
+        font-family: Fjalla One;
+        color: #4e1570 !important;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
     .card {
-        
+        h4 {
+            color: #4e1570 !important;
+            padding-top: 30px;
+            font-family: Fjalla One;
+        }
 
         .card-content {
             color: #545454 !important;
@@ -238,6 +274,34 @@ section#testimonial {
             }
         }
         
+    }
+
+    ul li a {
+        color: #4e1570 !important;
+        transition: transform 0.5s ease;
+    }
+
+    ul li:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease;
+        
+        background-color: #802bb1;
+        border-radius: 50%;
+
+        a {
+            color: white !important;
+            transition: all 0.5s ease;
+        }
+    }
+
+    ul li.active {
+        border-radius: 50%;
+        background-color: #802bb1;
+
+        a {
+            color: white !important;
+    
+        }
     }
     
 }
@@ -276,7 +340,7 @@ a.social:hover {
 }
 
 
-p.count-down {
+span.count-down {
     font-family: Orbitron;
     font-weight: bold;
     font-size: 58px;

@@ -103,17 +103,25 @@ section#countdown {
   background-color: white;
 }
 
-section#countdown p.count-down {
+section#countdown .countdown-container {
+  text-align: center;
+}
+
+section#countdown .countdown-container .timer {
   font-family: Orbitron;
   font-weight: bold;
   font-size: 58px;
   color: #4e1570 !important;
+  display: inline-block;
+  text-align: center;
+  padding-top: 50px;
+  width: 160px;
 }
 
-section#countdown p.tagline {
+section#countdown .countdown-container .timer span.tagline {
+  display: block;
   font-family: Fjalla One;
   font-size: 21px;
-  margin-top: -60px;
   color: #313131 !important;
 }
 
@@ -123,11 +131,19 @@ section#countdown .course-title {
   color: #802bb1 !important;
 }
 
-section#countdown .course-title p.venue {
-  color: #545454 !important;
+section#countdown .course-title p.date {
+  font-family: Fjalla One;
+  color: #4e1570 !important;
   font-size: 21px;
+  font-weight: bold !important;
+  margin-top: -5px;
+}
+
+section#countdown .course-title p.venue {
+  color: #454545 !important;
+  font-size: 18px;
   font-weight: bold;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 section#services {
@@ -226,12 +242,69 @@ section#testimonial .purple-border {
 }
 
 /* testimonials page */
+nav.testimonials {
+  background-color: #2D283E !important;
+}
+
+.testimonials-page {
+  padding-top: 50px;
+}
+
+.testimonials-page input {
+  color: #454545 !important;
+}
+
+.testimonials-page p.title {
+  font-family: Fjalla One;
+  color: #4e1570 !important;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.testimonials-page .card h4 {
+  color: #4e1570 !important;
+  padding-top: 30px;
+  font-family: Fjalla One;
+}
+
 .testimonials-page .card .card-content {
   color: #545454 !important;
 }
 
 .testimonials-page .card .card-action span.name {
   font-weight: bold;
+  color: white !important;
+}
+
+.testimonials-page ul li a {
+  color: #4e1570 !important;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.testimonials-page ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #802bb1;
+  border-radius: 50%;
+}
+
+.testimonials-page ul li:hover a {
+  color: white !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.testimonials-page ul li.active {
+  border-radius: 50%;
+  background-color: #802bb1;
+}
+
+.testimonials-page ul li.active a {
   color: white !important;
 }
 
@@ -266,7 +339,7 @@ a.social:hover {
   display: inline-block;
 }
 
-p.count-down {
+span.count-down {
   font-family: Orbitron;
   font-weight: bold;
   font-size: 58px;
